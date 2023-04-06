@@ -502,6 +502,13 @@ section {
     align-items: center;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
 .portfolios .portfolio-item .hover-items .icons .icon {
     background-color: var(--color-primary);
     border-radius: 50%;
