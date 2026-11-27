@@ -1,600 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peyton Thibodeaux · Freelance Backend &amp; DevOps Engineer</title>
+    <meta name="description" content="Freelance backend and DevOps engineer. Go services, Kubernetes, Terraform and AWS/GCP: built to scale, cheaper to run. 7+ years, ex-Capital One and Bestow.">
+    <meta property="og:title" content="Peyton Thibodeaux · Freelance Backend &amp; DevOps Engineer">
+    <meta property="og:description" content="Go services, Kubernetes, Terraform and AWS/GCP: built to scale, cheaper to run.">
+    <meta property="og:image" content="https://thibs.dev/img/avatar.png">
+    <meta property="og:url" content="https://thibs.dev">
+    <meta name="theme-color" content="#0f1115">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/hero.png" alt="">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>Peyton Thibodeaux.</span> A Software Engineer.
-                </h1>
-                <p style="kerning: none;">
-                    Welcome to my personal website! I'm a software engineer with a passion for creating beautiful and functional software solutions. I'm always exploring new technologies and pushing myself to innovate. As a fun fact, I also minted the first NFT in space!
-                    <br><br>I believe in embracing challenges as opportunities to learn and grow, and I invite you to explore my website to learn more about my projects and experiences. Thank you for visiting!
-                </p>
-                <div class="btn-con">
-                    <a href="img/Peyton_Thibodeaux_Resume.pdf" download class="main-btn">
-                        <span class="btn-text">Download Resume</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
+<body>
     <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span></h2>
+        <header class="intro">
+            <img class="avatar" src="img/avatar.png" width="160" height="160" alt="Peyton Thibodeaux">
+            <div>
+                <p class="status"><span class="dot"></span>Available for new projects</p>
+                <h1>Peyton Thibodeaux</h1>
+                <p class="tagline">Freelance backend &amp; DevOps engineer</p>
             </div>
-            <!-- <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, vero eos vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La musica delectus dolore fugiat
-                        exercitationem a, ipsum quidem quo enim natus accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum non necessitatibus deleniti eum soluta.
-                    </p>
-                    <div class="btn-con">
-                        <a href="img/Peyton_Thibodeaux_Resume.pdf" download class="main-btn">
-                            <span class="btn-text">Download Resume</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">50+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Years of <br /> experience</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">100+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">0+</p>
-                            <p class="small-text">Customer <br /> reviews</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Backend Development</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Expert</p>
-                            <div class="progress">
-                                <span style="width: 100%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Web Development</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 65%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Mobile Development</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 75%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Cloud Computing</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Expert</p>
-                            <div class="progress">
-                                <span style="width: 90%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Web3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 70%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Databases</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Expert</p>
-                            <div class="progress">
-                                <span style="width: 90%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Devops</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 75%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Security</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 70%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar" style="visibility: hidden">
-                        <p class="prog-title">Invisible</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span style="width: 70%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar" style="visibility: hidden">
-                        <p class="prog-title">Invisible</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span style="width: 70%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Golang</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Expert</p>
-                            <div class="progress">
-                                <span style="width: 100%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 65%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 70%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C++</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Proficient</p>
-                            <div class="progress">
-                                <span style="width: 75%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">flutter</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Expert</p>
-                            <div class="progress">
-                                <span style="width: 85%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Rust</p>
-                        <div class="progress-con">
-                            <p class="prog-text">Beginner</p>
-                            <div class="progress">
-                                <span style="width: 35%;"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - present</p>
-                    <h5>Backend Engineer II<span> - Bestow </span></h5>
-                    <p>
-                        Encouraged automation and continuous improvment, led high level objectives as a partial tech lead, created a service generator that significantly reduced the time required to implement new services, and applied expertise in distributed systems and microservices
-                        to deliver scalable and reliable solutions.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021 - 2022</p>
-                    <h5>Backend Engineer II<span> - Centene </span></h5>
-                    <p>
-                        Created and maintained high-performance healthcare back-end systems and APIs with a Kafka-based architecture and microservices for patient authorization data management, using Go, Kubernetes, AWS, MongoDB, Grafana, and SQL.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022</p>
-                    <h5> Protocol Engineer<span> - Sonr </span></h5>
-                    <p>
-                        Contributed to decentralized protocol design and development for blockchain operations, leveraging Sonr SDK and Cosmos tools, enhancing SDK for DApps, developing internal tools and processes, and staying up-to-date with web3 and distributed systems advancements.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021 - 2022</p>
-                    <h5>Backend Engineer<span> - Agglo</span></h5>
-                    <p>
-                        Developed scalable backend using Golang, MongoDB Atlas, and GraphQL for flagship product, designed advanced matching algorithm, established delivery pipeline, and collaborated with frontend engineers for successful production launch.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2021</p>
-                    <h5>Software Engineer<span> - Telecore</span></h5>
-                    <p>
-                        Developed and maintained C++ software for telecom systems, optimized ASP site, automated hardware testing, led webform development, assumed software maintenance responsibility, and implemented automated validation scripts.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2019 - 2021</p>
-                    <h5>Web Developer<span> - UNT System</span></h5>
-                    <p>
-                        Maintained hundreds of Drupal and WordPress sites, managed updates, developed app integrations, led theme overhaul, trained new team members, collaborated with stakeholders, and developed web applications.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span></h2>
-            </div>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port3.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        </header>
 
-            </div>
-            <!-- </section>
-            <section class="container" id="blogs">
-                <div class="blogs-content">
-                    <div class="main-title">
-                        <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                    </div>
-                    <div class="blogs">
-                        <div class="bgimg">
-                            <div class="middle">
-                                <h1>COMING SOON</h1>
-                                <hr>
-                                <p>December 2022</p>
-                            </div>
-                        </div>
-                        <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Create Your Own Website
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Become an Expert in Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div> -->
-            <!-- <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Become a Web Designer in 10 Days
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div> -->
-            <!-- <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div> -->
-            </div>
-            </div>
+        <p class="pitch">
+            I help teams build backend systems that scale and cloud infrastructure that costs less to run.
+            Seven years of shipping Go services, Kubernetes platforms and AWS/GCP infrastructure at
+            Capital One, Bestow and startups. Since 2025 I've been freelancing full time.
+        </p>
+
+        <div class="cta">
+            <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">Email me about your project</a>
+            <nav class="links" aria-label="Links">
+                <a href="https://github.com/Peyton232" rel="me">GitHub</a>
+                <a href="https://www.linkedin.com/in/peyton-thibodeaux" rel="me">LinkedIn</a>
+                <a href="img/Peyton_Thibodeaux_Resume.pdf">Résumé</a>
+            </nav>
+        </div>
+
+        <section>
+            <h2>What I do</h2>
+            <ul class="services">
+                <li>
+                    <h3>Backend APIs &amp; services</h3>
+                    <p>New services or rescuing existing ones in Go, Node or Python: REST, gRPC, GraphQL, Postgres, event-driven systems with Kafka or Pub/Sub.</p>
+                </li>
+                <li>
+                    <h3>Cloud &amp; DevOps</h3>
+                    <p>Kubernetes, Docker, Terraform and Helm on AWS or GCP. CI/CD pipelines, infrastructure as code and deploys you can trust.</p>
+                </li>
+                <li>
+                    <h3>Cloud cost reduction</h3>
+                    <p>Right-sizing, autoscaling and storage lifecycle policies. I've cut AWS bills by up to 80% without hurting reliability.</p>
+                </li>
+                <li>
+                    <h3>Reliability &amp; observability</h3>
+                    <p>Monitoring with Grafana or New Relic, load handling, security fixes and the testing strategy that keeps production calm.</p>
+                </li>
+            </ul>
         </section>
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span></h2>
-                </div>
-                <div class="contact-content-con" style="margin-left: 20%; margin-right: 20%;">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <!-- <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, laborum numquam? Quam excepturi perspiciatis quas quasi.
-                        </p> -->
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p> Texas, United States </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>peyton@thibs.dev</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span> University of North Texas</span>
-                                </p>
-                            </div>
-                            <!-- <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: nope nope nope</span>
-                                </p>
-                            </div> -->
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/peyton-thibodeaux" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://twitter.com/PeytonThibs" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/Peyton232" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="attribution">
-                <a href="https://www.flaticon.com/free-icons/developer" title="developer icons">Developer icons created by Paul J. - Flaticon</a>
-            </div> -->
+
+        <section>
+            <h2>Results</h2>
+            <ul class="results">
+                <li><strong>80%</strong> lower AWS compute costs for high-volume transaction processing at Capital One</li>
+                <li><strong>25%</strong> lower S3 storage costs through lifecycle policies</li>
+                <li><strong>Weeks → minutes</strong> to stand up a new microservice, with a service generator I built at Bestow</li>
+                <li><strong>4 months</strong> from idea to production for Bestow's refer-to-underwriter service</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <ol class="jobs">
+                <li><div class="job-head"><h3>Freelance Backend &amp; DevOps Engineer</h3><span>2025 – now</span></div></li>
+                <li><div class="job-head"><h3>Senior Software Engineer · Capital One</h3><span>2024 – 2025</span></div></li>
+                <li><div class="job-head"><h3>Senior Software Engineer · Bestow</h3><span>2022 – 2023</span></div></li>
+                <li><div class="job-head"><h3>Protocol Engineer (contract) · Sonr</h3><span>2022</span></div></li>
+                <li><div class="job-head"><h3>Lead Backend Engineer · Agglo</h3><span>2021 – 2022</span></div></li>
+                <li><div class="job-head"><h3>Software Engineer · UNT System</h3><span>2019 – 2021</span></div></li>
+            </ol>
+            <p class="note">AWS Certified Solutions Architect (2024) · B.S. Computer Science, University of North Texas, cum laude</p>
+        </section>
+
+        <section>
+            <h2>Tools</h2>
+            <ul class="tags">
+                <li>Go</li><li>TypeScript / Node</li><li>Python</li><li>PostgreSQL</li><li>GraphQL</li><li>gRPC</li>
+                <li>Kafka / Pub/Sub</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li><li>Helm</li>
+                <li>AWS</li><li>GCP</li><li>Grafana</li><li>New Relic</li><li>React</li><li>Flutter</li>
+            </ul>
+        </section>
+
+        <section class="closing">
+            <h2>Let's talk</h2>
+            <p>Tell me what you're building or what's breaking. I usually reply within a day.</p>
+            <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">peyton@thibs.dev</a>
         </section>
     </main>
-
-    <div class="controls">
-        <div class="control active-btn" data-id="home">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <!-- <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div> -->
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+    <footer>© <span id="y">2026</span> Peyton Thibodeaux · Texas, US · Remote</footer>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
-
 </html>
