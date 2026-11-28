@@ -6,100 +6,178 @@
     <title>Peyton Thibodeaux · Freelance Backend &amp; DevOps Engineer</title>
     <meta name="description" content="Freelance backend and DevOps engineer. Go services, Kubernetes, Terraform and AWS/GCP: built to scale, cheaper to run. 7+ years, ex-Capital One and Bestow.">
     <meta property="og:title" content="Peyton Thibodeaux · Freelance Backend &amp; DevOps Engineer">
-    <meta property="og:description" content="Go services, Kubernetes, Terraform and AWS/GCP: built to scale, cheaper to run.">
+    <meta property="og:description" content="Backend systems that scale. Cloud bills that don't.">
     <meta property="og:image" content="https://thibs.dev/img/avatar.png">
     <meta property="og:url" content="https://thibs.dev">
-    <meta name="theme-color" content="#0f1115">
+    <meta name="theme-color" content="#0b0d10">
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <header class="intro">
-            <img class="avatar" src="img/avatar.png" width="160" height="160" alt="Peyton Thibodeaux">
-            <div>
-                <p class="status"><span class="dot"></span>Available for new projects</p>
-                <h1>Peyton Thibodeaux</h1>
-                <p class="tagline">Freelance backend &amp; DevOps engineer</p>
+    <nav class="topbar">
+        <div class="wrap topbar-inner">
+            <a href="#top" class="brand"><span class="mark">PT</span>Peyton Thibodeaux</a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#contact" class="nav-cta">Contact</a>
             </div>
-        </header>
-
-        <p class="pitch">
-            I help teams build backend systems that scale and cloud infrastructure that costs less to run.
-            Seven years of shipping Go services, Kubernetes platforms and AWS/GCP infrastructure at
-            Capital One, Bestow and startups. Since 2025 I've been freelancing full time.
-        </p>
-
-        <div class="cta">
-            <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">Email me about your project</a>
-            <nav class="links" aria-label="Links">
-                <a href="https://github.com/Peyton232" rel="me">GitHub</a>
-                <a href="https://www.linkedin.com/in/peyton-thibodeaux" rel="me">LinkedIn</a>
-                <a href="img/Peyton_Thibodeaux_Resume.pdf">Résumé</a>
-            </nav>
         </div>
+    </nav>
 
-        <section>
-            <h2>What I do</h2>
-            <ul class="services">
-                <li>
+    <header class="hero" id="top">
+        <div class="wrap hero-inner">
+            <div class="hero-text">
+                <p class="pill"><span class="dot"></span>Available for new projects</p>
+                <h1>Backend systems that scale.<br><span class="grad">Cloud bills that don't.</span></h1>
+                <p class="lead">
+                    I'm Peyton, a freelance backend &amp; DevOps engineer. I design Go services, Kubernetes platforms
+                    and AWS/GCP infrastructure, and I've done it at Capital One, Bestow and startups for 7+ years.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">Start a project</a>
+                    <a class="btn btn-ghost" href="#work">See my work</a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://github.com/Peyton232" rel="me">GitHub</a>
+                    <a href="https://www.linkedin.com/in/peyton-thibodeaux" rel="me">LinkedIn</a>
+                    <a href="img/Peyton_Thibodeaux_Resume.pdf">Résumé</a>
+                </div>
+            </div>
+            <img class="avatar" src="img/avatar.png" width="320" height="320" alt="Peyton Thibodeaux">
+        </div>
+    </header>
+
+    <main>
+        <section class="wrap stats" aria-label="Highlights">
+            <div><strong>7+</strong><span>years shipping production backends</span></div>
+            <div><strong>80%</strong><span>AWS cost reduction delivered</span></div>
+            <div><strong>Billions</strong><span>of transactions on systems I've built</span></div>
+            <div><strong>AWS</strong><span>Certified Solutions Architect</span></div>
+        </section>
+
+        <section class="wrap" id="services">
+            <p class="eyebrow">Services</p>
+            <h2>What I can do for you</h2>
+            <div class="services">
+                <article>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
                     <h3>Backend APIs &amp; services</h3>
-                    <p>New services or rescuing existing ones in Go, Node or Python: REST, gRPC, GraphQL, Postgres, event-driven systems with Kafka or Pub/Sub.</p>
-                </li>
-                <li>
+                    <p>New services or rescuing existing ones in Go, Node or Python. REST, gRPC, GraphQL, Postgres, and event-driven systems on Kafka or Pub/Sub.</p>
+                </article>
+                <article>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4 4 0 0 1-.5-7.97A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9H7z"/></svg>
                     <h3>Cloud &amp; DevOps</h3>
                     <p>Kubernetes, Docker, Terraform and Helm on AWS or GCP. CI/CD pipelines, infrastructure as code and deploys you can trust.</p>
-                </li>
-                <li>
+                </article>
+                <article>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18l6-6 4 4 6-8M20 8v5M20 8h-5"/></svg>
                     <h3>Cloud cost reduction</h3>
-                    <p>Right-sizing, autoscaling and storage lifecycle policies. I've cut AWS bills by up to 80% without hurting reliability.</p>
-                </li>
-                <li>
-                    <h3>Reliability &amp; observability</h3>
-                    <p>Monitoring with Grafana or New Relic, load handling, security fixes and the testing strategy that keeps production calm.</p>
-                </li>
-            </ul>
+                    <p>Right-sizing, autoscaling and storage lifecycle policies that cut the bill without cutting reliability.</p>
+                </article>
+                <article>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/></svg>
+                    <h3>Reliability &amp; security</h3>
+                    <p>Monitoring with Grafana or New Relic, peak-load hardening, security fixes and a testing strategy that keeps production calm.</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <h2>Results</h2>
-            <ul class="results">
-                <li><strong>80%</strong> lower AWS compute costs for high-volume transaction processing at Capital One</li>
-                <li><strong>25%</strong> lower S3 storage costs through lifecycle policies</li>
-                <li><strong>Weeks → minutes</strong> to stand up a new microservice, with a service generator I built at Bestow</li>
-                <li><strong>4 months</strong> from idea to production for Bestow's refer-to-underwriter service</li>
-            </ul>
+        <section class="wrap" id="work">
+            <p class="eyebrow">Selected work</p>
+            <h2>Case studies</h2>
+
+            <article class="case">
+                <div class="case-metric"><strong>80%</strong><span>lower AWS compute cost</span></div>
+                <div class="case-body">
+                    <p class="case-org">Capital One · Senior Software Engineer</p>
+                    <h3>Cutting cloud costs on a high-volume transaction platform</h3>
+                    <dl>
+                        <dt>Problem</dt>
+                        <dd>Services processing billions of transactions were over-provisioned, and storage costs kept growing.</dd>
+                        <dt>What I did</dt>
+                        <dd>Right-sized EC2, tuned auto-scaling for real peak load, and added S3 lifecycle policies. I also fixed application security vulnerabilities along the way.</dd>
+                        <dt>Result</dt>
+                        <dd>AWS compute costs down 80% and S3 storage costs down 25%, with peak traffic still handled smoothly.</dd>
+                    </dl>
+                    <ul class="tags"><li>Go</li><li>Python</li><li>gRPC</li><li>AWS EC2 / Lambda / S3 / EMR</li></ul>
+                </div>
+            </article>
+
+            <article class="case">
+                <div class="case-metric"><strong>Weeks → minutes</strong><span>to launch a new service</span></div>
+                <div class="case-body">
+                    <p class="case-org">Bestow · Senior Software Engineer</p>
+                    <h3>A service generator and a 4-month production launch</h3>
+                    <dl>
+                        <dt>Problem</dt>
+                        <dd>Standing up each new microservice took weeks of boilerplate, which slowed every new feature.</dd>
+                        <dt>What I did</dt>
+                        <dd>Built a Python service generator that scaffolds production-ready Go services, then used the same approach to ship a new "refer to underwriter" service, connected to other services over pub/sub. I also led a distributed team on testing strategy.</dd>
+                        <dt>Result</dt>
+                        <dd>New services in minutes instead of weeks, and the underwriter service went from idea to production in four months.</dd>
+                    </dl>
+                    <ul class="tags"><li>Go</li><li>Python</li><li>PostgreSQL</li><li>GCP</li><li>Kubernetes</li><li>Terraform</li></ul>
+                </div>
+            </article>
+
+            <article class="case">
+                <div class="case-metric"><strong>Real-time</strong><span>matching and chat at launch</span></div>
+                <div class="case-body">
+                    <p class="case-org">Agglo · Lead Backend Engineer</p>
+                    <h3>Building a startup's backend from scratch</h3>
+                    <dl>
+                        <dt>Problem</dt>
+                        <dd>The product needed fast user matching and live chat, with a backend the frontend team could build on quickly.</dd>
+                        <dt>What I did</dt>
+                        <dd>Designed the server architecture and GraphQL schema, wrote a weighted-tree matching algorithm, and added GraphQL subscriptions for live updates, with authentication and authorization done properly.</dd>
+                        <dt>Result</dt>
+                        <dd>Lower pairing latency, real-time notifications, and a clean single API that sped up frontend work.</dd>
+                    </dl>
+                    <ul class="tags"><li>Go</li><li>GraphQL</li><li>MongoDB Atlas</li></ul>
+                </div>
+            </article>
         </section>
 
-        <section>
-            <h2>Experience</h2>
-            <ol class="jobs">
-                <li><div class="job-head"><h3>Freelance Backend &amp; DevOps Engineer</h3><span>2025 – now</span></div></li>
-                <li><div class="job-head"><h3>Senior Software Engineer · Capital One</h3><span>2024 – 2025</span></div></li>
-                <li><div class="job-head"><h3>Senior Software Engineer · Bestow</h3><span>2022 – 2023</span></div></li>
-                <li><div class="job-head"><h3>Protocol Engineer (contract) · Sonr</h3><span>2022</span></div></li>
-                <li><div class="job-head"><h3>Lead Backend Engineer · Agglo</h3><span>2021 – 2022</span></div></li>
-                <li><div class="job-head"><h3>Software Engineer · UNT System</h3><span>2019 – 2021</span></div></li>
-            </ol>
-            <p class="note">AWS Certified Solutions Architect (2024) · B.S. Computer Science, University of North Texas, cum laude</p>
+        <section class="wrap two-col">
+            <div>
+                <p class="eyebrow">Experience</p>
+                <ol class="jobs">
+                    <li><span>Freelance Backend &amp; DevOps Engineer</span><em>2025 – now</em></li>
+                    <li><span>Senior Software Engineer · Capital One</span><em>2024 – 2025</em></li>
+                    <li><span>Senior Software Engineer · Bestow</span><em>2022 – 2023</em></li>
+                    <li><span>Protocol Engineer (contract) · Sonr</span><em>2022</em></li>
+                    <li><span>Lead Backend Engineer · Agglo</span><em>2021 – 2022</em></li>
+                    <li><span>Software Engineer · UNT System</span><em>2019 – 2021</em></li>
+                </ol>
+                <p class="note">B.S. Computer Science, University of North Texas, cum laude</p>
+            </div>
+            <div>
+                <p class="eyebrow">Toolbox</p>
+                <ul class="tags">
+                    <li>Go</li><li>TypeScript / Node</li><li>Python</li><li>PostgreSQL</li><li>GraphQL</li><li>gRPC</li>
+                    <li>Kafka / Pub/Sub</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li><li>Helm</li>
+                    <li>AWS</li><li>GCP</li><li>Grafana</li><li>New Relic</li><li>React</li><li>Flutter</li>
+                </ul>
+            </div>
         </section>
 
-        <section>
-            <h2>Tools</h2>
-            <ul class="tags">
-                <li>Go</li><li>TypeScript / Node</li><li>Python</li><li>PostgreSQL</li><li>GraphQL</li><li>gRPC</li>
-                <li>Kafka / Pub/Sub</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li><li>Helm</li>
-                <li>AWS</li><li>GCP</li><li>Grafana</li><li>New Relic</li><li>React</li><li>Flutter</li>
-            </ul>
-        </section>
-
-        <section class="closing">
-            <h2>Let's talk</h2>
-            <p>Tell me what you're building or what's breaking. I usually reply within a day.</p>
-            <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">peyton@thibs.dev</a>
+        <section class="wrap" id="contact">
+            <div class="contact-card">
+                <h2>Have a project in mind?</h2>
+                <p>Tell me what you're building or what's breaking. I usually reply within a day.</p>
+                <a class="btn" href="mailto:peyton@thibs.dev?subject=Project%20inquiry">peyton@thibs.dev</a>
+            </div>
         </section>
     </main>
-    <footer>© <span id="y">2026</span> Peyton Thibodeaux · Texas, US · Remote</footer>
+
+    <footer class="wrap">
+        <span>© <span id="y">2026</span> Peyton Thibodeaux</span>
+        <span>Texas, US · Working remotely</span>
+    </footer>
     <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
